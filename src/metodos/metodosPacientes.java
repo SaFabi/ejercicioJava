@@ -53,16 +53,7 @@ public class metodosPacientes  {
         return -1;
     }
    
-     public int busquedaSecuencialApellidos(ArrayList<Paciente> arreglo,String apellidos){
-        
-        for (int i = 0; i < arreglo.size(); i++) {
-            if (arreglo.get(i).getApellidos().equals(apellidos)) {
-                return i;
-                
-            }
-        }
-        return -1;
-    }
+     
 
     //IMPRIMIR LAS LISTAS CON LOS RESULTADOS
     
